@@ -1,0 +1,93 @@
+Xcursor*theme:         Vanilla-DMZ-AA
+
+!Xft.dpi:               244
+Xft.antialias:         false
+Xft.hinting:           true
+Xft.hintstyle:         hintfull
+Xft.rgba:              rgb
+
+!URxvt*font:   xft:Bitstream Vera Sans Mono:pixelsize=15
+!URxvt*font:     xft:Terminess for Powerline:regular:size=9
+!urxvt*font: xft:Terminus:pixelsize=12,xft:Inconsolata\ for\ Powerline:pixelsize=12
+URxvt*font: xft:Source\ Code\ Pro\ Medium:pixelsize=13:antialias=true:hinting=true,xft:Source\ Code\ Pro\ Medium:pixelsize=13:antialias=true:hinting=true
+URxvt*scrollBar:       false
+!URxvt*saveLines:       32767
+URxvt.colorUL:         #a9c9bc
+URxvt*cursorColor:     orange
+URxvt*cursorBlink:     true
+URxvt*geometry:        90x26
+URxvt*title:           rxvt-256color
+URxvt*tintColor:       #636363
+URxvt*shading:         100
+URxvt*transparent:     true
+URxvt*pastableTabs:    true
+URxvt*jumpScroll:      true
+URxvt*secondaryScroll: true
+!URxvt*urgentOnBell:    true
+
+!URxvt*perl-lib:             /usr/lib/urxvt/perl/
+!URxvt*perl-ext-common:      default,url-select
+!URxvt*url-launcher:         firefox
+!URxvt*keysym.C-comma:       perl:url-select:select_next
+!URxvt*url-select.launcher:  firefox
+!URxvt*url-select.underline: true
+!URxvt*url-select.button:    1
+
+XTerm*font:            -*-ubuntu mono-medium-r-*-*-30-*-*-*-*-*-*-*
+XTerm*boldFont:        -*-ubuntu mono-medium-r-*-*-30-*-*-*-*-*-*-*
+XTerm*boldMode:        false
+XTerm*scrollBar:       false
+XTerm*saveLines:       32767
+XTerm*borderLess:      true
+XTerm*cursorColor:     orange
+XTerm*cursorBlink:     true
+XTerm*pastableTabs:    true
+XTerm*jumpScroll:      true
+
+pianobar*font:         -*-monofur-medium-r-*-*-30-*-*-*-*-*-*-*
+pianobar*boldFont:     -*-monofur-medium-r-*-*-30-*-*-*-*-*-*-*
+pianobar*foreground:   #a6a6a6
+pianobar*urgentOnBell: true
+
+scratch*font:          -*-ubuntu mono-medium-r-*-*-40-*-*-*-*-*-*-*
+scratch*boldFont:      -*-ubuntu mono-medium-r-*-*-40-*-*-*-*-*-*-*
+scratch*boldMode:      false
+scratch*scrollBar:     false
+scratch*saveLines:     32767
+scratch*borderLess:    true
+scratch*cursorColor:   orange
+scratch*cursorBlink:   true
+scratch*pastableTabs:  true
+scratch*jumpScroll:    true
+
+alsamixer*scrollBar:   false
+
+! Xoria256 {{{
+*URxvt.foreground: #bcbcbc
+*URxvt.background: #1a1a1a
+!black
+*URxvt.color0:     #1a1a1a
+*URxvt.color8:     #808080
+!red
+*URxvt.color1:     #df8787
+*URxvt.color9:     #b56e6e
+!green
+*URxvt.color2:     #9ece9e
+*URxvt.color10:    #c4edc4
+!yellow
+*URxvt.color3:     #ffffaf
+*URxvt.color11:    #d6d693
+!blue
+*URxvt.color4:     #87afdf
+*URxvt.color12:    #6e8eb5
+!magenta
+*URxvt.color5:     #dfaf87
+*URxvt.color13:    #b58e6e
+!cyan
+*URxvt.color6:     #afafdf
+*URxvt.color14:    #8e8eB5
+!white
+*URxvt.color7:     #d0d0d0
+*URxvt.color15:    #e2e2e5
+! }}}
+
